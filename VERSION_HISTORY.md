@@ -6,4 +6,5 @@
 | 2026-10-07 | `c7fc84b` | Initial commit |
 | 2026-10-07 | `12193e5` | License GPL-3.0-or-later and README screenshot |
 | 2026-10-07 | `bca8799` | Merge GitHub initial commit (LICENSE) |
-| 2026-10-07 | `(this)` | KiCad Plugin and Content Manager package: pcm/metadata.json, tools/build_pcm.py (v1.0.0) |
+| 2026-10-07 | `d48023f` | Add KiCad Plugin and Content Manager packaging (v1.0.0) |
+| 2026-10-07 | `(this)` | README: install from the release zip with Install from File |

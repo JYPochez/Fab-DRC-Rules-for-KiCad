@@ -19,6 +19,16 @@ before ordering, and send corrections as pull requests to the JSON files.
 
 ## Install
 
+### From the release zip (all systems)
+
+1. Download `com.github.jypochez.fab-drc-rules_<version>.zip` from the
+   [Releases](https://github.com/JYPochez/Fab-DRC-Rules-for-KiCad/releases) page
+   (do not unzip it).
+2. In KiCad: Plugin and Content Manager > Install from File..., pick the zip,
+   then Apply Pending Changes.
+
+### From the source, with the installer scripts
+
 | System  | Command |
 |---------|---------|
 | macOS   | `installers/install_macos.sh` |
