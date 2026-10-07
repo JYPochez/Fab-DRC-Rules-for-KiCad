@@ -7,6 +7,8 @@ project's `.kicad_dru` and, optionally, sets Board Setup > Constraints.
 
 Tested with KiCad 10.0 (classic SWIG action plugin).
 
+![The Fab DRC Rules dialog with JLCPCB selected](docs/dialog.png)
+
 ## Fabs included
 
 AISLER, ALLPCB, Elecrow, Eurocircuits, JLCPCB, NextPCB, OSH Park, PCBCart,
@@ -52,3 +54,7 @@ Track width (outer, inner), hole to hole, hole to copper, plated-pad hole to
 copper, copper to edge, PTH hole and annular ring, NPTH hole, via drill /
 diameter / annular ring, plated and non-plated slot width, castellated holes,
 silkscreen text height/thickness, silkscreen to pad.
+
+## License
+
+GPL-3.0-or-later, like KiCad. See [LICENSE](LICENSE).

@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Installs the Fab DRC Rules plugin for KiCad on Linux.
 #   ./install_linux.sh               install for KiCad 10.0
 #   ./install_linux.sh 9.0           install for another KiCad version

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Turns one fab profile (fabs/<id>.json) into KiCad custom design rules.
 
 No pcbnew import here, so the generator can be tested with any Python 3.9+.

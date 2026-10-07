@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Installs the Fab DRC Rules plugin for KiCad on Windows.
 #   .\install_windows.ps1                  install for KiCad 10.0
 #   .\install_windows.ps1 -Version 9.0     install for another KiCad version

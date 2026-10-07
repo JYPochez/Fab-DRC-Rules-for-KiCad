@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Installs the Fab DRC Rules plugin for KiCad on macOS.
 #   ./install_macos.sh               install for KiCad 10.0
 #   ./install_macos.sh 9.0           install for another KiCad version

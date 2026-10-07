@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Fab DRC Rules for KiCad: a toolbar button in the PCB editor.
 
 One click opens a dialog listing the PCB fabs whose published capabilities
