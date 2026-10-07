@@ -58,3 +58,10 @@ silkscreen text height/thickness, silkscreen to pad.
 ## License
 
 GPL-3.0-or-later, like KiCad. See [LICENSE](LICENSE).
+
+## Building the KiCad add-on package
+
+`python3 tools/build_pcm.py` builds `dist/<identifier>_<version>.zip` from
+`pcm/metadata.json`, plus the `metadata.json` (with download URL, SHA-256 and
+sizes) and `icon.png` for the KiCad add-on metadata repository. The zip goes on
+the GitHub release `v<version>`.

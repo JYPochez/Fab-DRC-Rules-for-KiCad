@@ -1,0 +1,29 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Fab DRC Rules",
+  "description": "Install the design rules (DRC) of your PCB fab: JLCPCB, PCBWay, OSH Park, Eurocircuits, AISLER and more",
+  "description_full": "A PCB-editor toolbar button that installs the design rules of the PCB fab you are sending the board to.\n\nPick the fab and a profile (layer count, copper weight, standard or extra-cost options). The plugin writes the fab's custom rules into the project's .kicad_dru, inside a marked block that keeps your own rules, and can set Board Setup > Constraints minimums.\n\nCopper clearance goes into Board Setup rather than a custom rule, so net-class clearances keep working.\n\nIncluded fabs: AISLER, ALLPCB, Elecrow, Eurocircuits, JLCPCB, NextPCB, OSH Park, PCBCart, PCBWay, Seeed Fusion. Every value comes with its source URL and the date it was read; check the fab's page before ordering.",
+  "identifier": "com.github.jypochez.fab-drc-rules",
+  "type": "plugin",
+  "author": {
+    "name": "Jean-Yves POCHEZ",
+    "contact": {
+      "github": "https://github.com/JYPochez"
+    }
+  },
+  "license": "GPL-3.0",
+  "resources": {
+    "Github": "https://github.com/JYPochez/Fab-DRC-Rules-for-KiCad",
+    "Issues": "https://github.com/JYPochez/Fab-DRC-Rules-for-KiCad/issues"
+  },
+  "tags": ["drc", "design-rules", "manufacturing", "jlcpcb", "pcbway", "oshpark"],
+  "keep_on_update": ["settings\\.json$"],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "status": "stable",
+      "kicad_version": "10.0",
+      "runtime": "swig"
+    }
+  ]
+}

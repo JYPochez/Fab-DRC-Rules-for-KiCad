@@ -4,3 +4,4 @@ __pycache__/
 *.kicad_dru.bak*
 .claude/settings.local.json
 settings.json
+dist/
